@@ -1,0 +1,403 @@
+\documentclass{article}
+\usepackage{graphicx} % Required for inserting images
+\usepackage{caption}
+\usepackage{placeins} % For \FloatBarrier
+
+
+\title{VivadoVitisGuide}
+\author{Marcin Konczyk}
+\date{June 2024}
+
+% Define a new Template for steps
+\newcounter{step}
+\newcommand{\step}[3]{
+    \refstepcounter{step}
+    \subsection*{Step \thestep: #1}
+    \begin{enumerate}
+        #2
+    \end{enumerate}
+    \begin{figure}[h!]
+        \centering
+        \includegraphics[width=1.2\textwidth]{images/step\thestep.png}
+        \caption{#3}
+        \label{fig:step\thestep}
+    \end{figure}
+    \FloatBarrier
+    \newpage
+}
+
+\begin{document}
+
+\maketitle
+
+\tableofcontents
+
+\newpage
+
+\section{Introduction}
+This guide provides step-by-step instructions on how to use the software program. Each step is illustrated with an image to help you understand the process better.
+
+\newpage
+\section{Ebaz4205 Board Files}
+
+\step{Download Ebaz4205 Board files from github repository }{
+    \item Go to "https://github.com/XyleMora/EBAZ4205/tree/main".
+    \item Click on code tab, and download ZIP.
+}{Main github repository page with Description}
+
+\step{Find downloaded Board Files}{
+    \item Unpack the repository that has been downloaded in the form of ZIP file.
+    \item Go to the Documents/Board Files within the repository.
+}{The folder including the boarfiles}
+
+\step{Transfer the boardfiles to Vivado}{
+    \item Copy the folder called ebaz4205 from the repository
+    \item Paste the folder to "/Xilinx/Vivado/2023.2/data/boards/board files"
+}{The destination directory folder}
+
+\section{Vivado Project}
+\step{Create new Vivado project}{
+    \item Open Vivado ML edition.
+    \item On the welcome page select create new project
+}{Vivado welcome page}
+
+\step{New project wizard}{
+    \item Select Next.
+}{New project wizard}
+
+\step{Name the Project}{
+    \item In project name input your selected name for the project or leave default.
+    \item In project destination select where your project will be saved, specify the general address as the project creation will create a folder of a chosen project name.
+    \item Make sure that create subdirectory is selected and that the final directory is correct
+}{Project naming and destination page}
+
+\step{Project type}{
+    \item Select the RTL project.
+    \item Make sure that the option to not specify sorces at the time is selected.
+}{Project type selection screen}
+
+\step{Part selection}{
+    \item Select the board tab.
+}{Part selection screen}
+
+\step{Board selection}{
+    \item In search start typing "Ebaz4205" until the Ebaz Development board is on the screen
+    \item Select the board by clicking the empty space in the Display Name column
+}{Board selection screen}
+
+\step{New project summary}{
+    \item Ensure that The project summary matches the one on the image (the project name can be different).
+}{Project summary screen}
+
+\section {Vivado Work Flow}
+\step{Crete block design}{
+    \item On the left tab bar select the Create Block design in the IP integrator section.
+}{Main page of Vivado Project}
+
+\step{Block design creation}{
+    \item Chose a name for the block design.
+    \item Ensure that Local to project directory is selected
+    \item Specify the block diagram as Design source
+    \item Select next
+}{Block design Creation screen}
+
+\step{Adding IPs to the project}{
+    \item Navigate to the freshly created diagram section on the right of the screen.
+    \item Press the plus button to add a new IP to the project
+}{Main page of the Block diagram project}
+
+\step{Selecting ZYNQ7 Processing system as new IP}{
+    \item In the search tab star typing ZYNQ7 Processing system
+    \item Select the ZYNQ7 Processing system and double click to add
+}{IP selection screen}
+
+\step{Block automation}{
+    \item Navigate to the green Designer Assistant tab.
+    \item Select option Run block automation.
+}{Block design with newly created ZYNQ7 Processing system}
+
+\step{Block automation options}{
+    \item Ensure that Apply Board Presets is selected.
+    \item Proceed with block automation.
+}{Block automation Wizard screen}
+
+\step{Opening IP customization}{
+    \item Navigate to the ZYNQ7 Processing system block within the diagram.
+    \item Double click on the block to customise it's properties.
+}{Block diagram with ZYNQ7 Processing system highlihted}
+
+\step{Block customization}{
+    \item Navigate to the Page Navigator on the left of the screen
+    \item Select the Peripheral I/O Pins to customise the existing connections.
+}{Block customization screen}
+
+\step{Step Title}{
+    \item Point 1.
+    \item Point 2.
+}{Image description.}
+
+\step{Step Title}{
+    \item Point 1.
+    \item Point 2.
+}{Image description.}
+
+\step{Step Title}{
+    \item Point 1.
+    \item Point 2.
+}{Image description.}
+
+\step{Step Title}{
+    \item Point 1.
+    \item Point 2.
+}{Image description.}
+
+\step{Step Title}{
+    \item Point 1.
+    \item Point 2.
+}{Image description.}
+
+\step{Step Title}{
+    \item Point 1.
+    \item Point 2.
+}{Image description.}
+
+\step{Step Title}{
+    \item Point 1.
+    \item Point 2.
+}{Image description.}
+
+\step{Step Title}{
+    \item Point 1.
+    \item Point 2.
+}{Image description.}
+
+\step{Step Title}{
+    \item Point 1.
+    \item Point 2.
+}{Image description.}
+
+\step{Step Title}{
+    \item Point 1.
+    \item Point 2.
+}{Image description.}
+
+\step{Step Title}{
+    \item Point 1.
+    \item Point 2.
+}{Image description.}
+
+\step{Step Title}{
+    \item Point 1.
+    \item Point 2.
+}{Image description.}
+
+\step{Step Title}{
+    \item Point 1.
+    \item Point 2.
+}{Image description.}
+
+\step{Step Title}{
+    \item Point 1.
+    \item Point 2.
+}{Image description.}
+
+\step{Step Title}{
+    \item Point 1.
+    \item Point 2.
+}{Image description.}
+
+\step{Step Title}{
+    \item Point 1.
+    \item Point 2.
+}{Image description.}
+
+\step{Step Title}{
+    \item Point 1.
+    \item Point 2.
+}{Image description.}
+
+\step{Step Title}{
+    \item Point 1.
+    \item Point 2.
+}{Image description.}
+
+\step{Step Title}{
+    \item Point 1.
+    \item Point 2.
+}{Image description.}
+
+\step{Step Title}{
+    \item Point 1.
+    \item Point 2.
+}{Image description.}
+
+\step{Step Title}{
+    \item Point 1.
+    \item Point 2.
+}{Image description.}
+
+\step{Step Title}{
+    \item Point 1.
+    \item Point 2.
+}{Image description.}
+
+\step{Step Title}{
+    \item Point 1.
+    \item Point 2.
+}{Image description.}
+
+\step{Step Title}{
+    \item Point 1.
+    \item Point 2.
+}{Image description.}
+
+\step{Step Title}{
+    \item Point 1.
+    \item Point 2.
+}{Image description.}
+
+\step{Step Title}{
+    \item Point 1.
+    \item Point 2.
+}{Image description.}
+
+\step{Step Title}{
+    \item Point 1.
+    \item Point 2.
+}{Image description.}
+
+\step{Step Title}{
+    \item Point 1.
+    \item Point 2.
+}{Image description.}
+
+\step{Step Title}{
+    \item Point 1.
+    \item Point 2.
+}{Image description.}
+
+\step{Step Title}{
+    \item Point 1.
+    \item Point 2.
+}{Image description.}
+
+\step{Step Title}{
+    \item Point 1.
+    \item Point 2.
+}{Image description.}
+
+\step{Step Title}{
+    \item Point 1.
+    \item Point 2.
+}{Image description.}
+
+\step{Step Title}{
+    \item Point 1.
+    \item Point 2.
+}{Image description.}
+
+\step{Step Title}{
+    \item Point 1.
+    \item Point 2.
+}{Image description.}
+
+\step{Step Title}{
+    \item Point 1.
+    \item Point 2.
+}{Image description.}
+
+\step{Step Title}{
+    \item Point 1.
+    \item Point 2.
+}{Image description.}
+
+\step{Step Title}{
+    \item Point 1.
+    \item Point 2.
+}{Image description.}
+
+\step{Step Title}{
+    \item Point 1.
+    \item Point 2.
+}{Image description.}
+
+\step{Step Title}{
+    \item Point 1.
+    \item Point 2.
+}{Image description.}
+
+\step{Step Title}{
+    \item Point 1.
+    \item Point 2.
+}{Image description.}
+
+\step{Step Title}{
+    \item Point 1.
+    \item Point 2.
+}{Image description.}
+
+\step{Step Title}{
+    \item Point 1.
+    \item Point 2.
+}{Image description.}
+
+\step{Step Title}{
+    \item Point 1.
+    \item Point 2.
+}{Image description.}
+
+\step{Step Title}{
+    \item Point 1.
+    \item Point 2.
+}{Image description.}
+
+\step{Step Title}{
+    \item Point 1.
+    \item Point 2.
+}{Image description.}
+
+\step{Step Title}{
+    \item Point 1.
+    \item Point 2.
+}{Image description.}
+
+\step{Step Title}{
+    \item Point 1.
+    \item Point 2.
+}{Image description.}
+
+\step{Step Title}{
+    \item Point 1.
+    \item Point 2.
+}{Image description.}
+
+\step{Step Title}{
+    \item Point 1.
+    \item Point 2.
+}{Image description.}
+
+\step{Step Title}{
+    \item Point 1.
+    \item Point 2.
+}{Image description.}
+
+\step{Step Title}{
+    \item Point 1.
+    \item Point 2.
+}{Image description.}
+
+\step{Step Title}{
+    \item Point 1.
+    \item Point 2.
+}{Image description.}
+
+\step{Step Title}{
+    \item Point 1.
+    \item Point 2.
+}{Image description.}
+
+
+\section{Conclusion}
+This guide has walked you through the basic steps of using the software. Refer to the user manual or help section within the software for more detailed instructions and advanced features.
+
+\end{document}
