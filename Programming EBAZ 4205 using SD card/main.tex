@@ -1,0 +1,469 @@
+\documentclass{article}
+\usepackage{graphicx} % Required for inserting images
+\usepackage{caption}
+\usepackage{placeins} % For \FloatBarrier
+
+
+\title{VivadoVitisGuide}
+\author{Marcin Konczyk}
+\date{June 2024}
+
+% Define a new Template for steps
+\newcounter{step}
+\newcommand{\step}[3]{
+    \refstepcounter{step}
+    \subsection*{Step \thestep: #1}
+    \begin{enumerate}
+        #2
+    \end{enumerate}
+    \begin{figure}[h!]
+        \centering
+        \includegraphics[width=1.2\textwidth]{images/step\thestep.png}
+        \caption{#3}
+        \label{fig:step\thestep}
+    \end{figure}
+    \FloatBarrier
+    \newpage
+}
+
+\begin{document}
+
+\section{Introduction}
+This guide provides step-by-step instructions on how to use the software program. Each step is illustrated with an image to help you understand the process better.
+
+\newpage
+\section{Step-by-Step Guide}
+
+% Step 1
+\step{Downloading the Ebaz board files}{
+    \item Download the Ebaz board files from \texttt{https://github.com/XyleMora/EBAZ4205/tree/main}.
+}{Download the Ebaz board files from \texttt{https://github.com/XyleMora/EBAZ4205/tree/main}.}
+
+% Step 2
+\step{Transferring the board files}{
+    \item Transfer the board files `Ebaz4205` folder from the \texttt{download/Ebaz4205-main/Documents/Board files} to the Program folder specified during installation.
+    \item The destination folder should look like this: \texttt{/Xilinx/Vivado/2023.2/data/boards/board\_files.}
+}{Transfer the board files to the specified Program folder.}
+
+% Step 3
+\step{Placing the board files into the destination folder}{
+    \item Place the board files into the destination folder at \texttt{/Xilinx/Vivado/2023.2/data/boards/board\_files.}
+}{Place the board files into the destination folder.}
+
+% Step 4
+\step{Starting a new project in Vivado}{
+    \item Open Vivado.
+    \item Start a new project by clicking on Create Project.
+}{Start a new project in Vivado.}
+
+% Step 5
+\step{Proceeding to the next step}{
+    \item Click Next.
+}{Click Next.}
+
+% Step 6
+\step{Specifying the project name and directory}{
+    \item Specify the name.
+    \item Specify your desired project directory.
+    \item Click Next.
+}{Specify the project name and directory.}
+
+% Step 7
+\step{Selecting the project type}{
+    \item Ensure that RTL Project is selected.
+    \item Choose Do not specify sources at this time.
+    \item Click Next.
+}{Select the project type and proceed.}
+
+\step{Part selection}{
+    \item Select the board tab.
+}{Part selection screen}
+
+% Step 8
+\step{Finding the Ebaz4205 board}{
+    \item In the Boards section, find the Ebaz4205 board by searching for it in the Search tab.
+    \item Select the board (it should highlight blue).
+    \item Click Next.
+}{Find the Ebaz4205 board and select it.}
+
+% Step 9
+\step{Finalizing the project setup}{
+    \item The Project summary should look like this.
+    \item Click Finish.
+}{Finalize the project setup and click Finish.}
+
+% Step 10
+\step{Creating a block design}{
+    \item You’re transported to the main screen of the project.
+    \item From the workflow on the left of the screen, select “Create Block Design”.
+}{Create a block design in Vivado.}
+
+% Step 11
+\step{Naming the block design}{
+    \item Name the block design or leave the default.
+    \item Click Next.
+}{Name the block design and proceed.}
+
+% Step 12
+\step{Adding a new IP block}{
+    \item Now you should see the empty Diagram on your right.
+    \item Click the small plus icon to Add New IP block.
+}{Add a new IP block to the design.}
+
+% Step 13
+\step{Adding the ZYNQ 7 Processing System}{
+    \item Search for the ZYNQ 7 Processing System.
+    \item Double-click on the name to add it as a block.
+}{Add the ZYNQ 7 Processing System block.}
+
+% Step 14
+\step{Running block automation}{
+    \item You should now see the block has been created.
+    \item At the top, you can see a hint to run block automation.
+    \item Click on Run Block Automation.
+}{Run block automation for the ZYNQ 7 Processing System.}
+
+% Step 15
+\step{Applying board presets}{
+    \item Ensure that the “Apply Board Preset” is selected.
+    \item Click OK.
+}{Apply board presets for the block.}
+
+% Step 16
+\step{Configuring the ZYNQ 7 Processing System}{
+    \item Now we can see that some lines were added to the outputs.
+    \item All standard protocols have also been configured.
+    \item Double-click on the ZYNQ 7 Processing System block to adjust its properties.
+}{Configure the ZYNQ 7 Processing System properties.}
+
+% Step 17
+\step{Accessing the Peripheral I/O Pins}{
+    \item You should be welcomed by the overview of the system.
+    \item On the left, click on Peripheral I/O Pins.
+}{Access the Peripheral I/O Pins settings.}
+
+% Step 18
+\step{Configuring I/O pins}{
+    \item You should be welcomed to the I/O configuration.
+    \item Most of them should already be preconfigured (displayed as green).
+    \item Disable the Ethernet 0 Protocol, as we won't be using it.
+}{Configure the I/O pins and disable Ethernet 0 Protocol.}
+
+% Step 19
+\step{Adding more Block IPs}{
+    \item Now we need to add more Block IPs.
+    \item Click on the small plus icon and search for Processor System Reset.
+    \item Double-click to add. It should appear on the screen.
+    \item Connect the \texttt{FCLK\_CLK0} and \texttt{FCLK\_RESET0\_N} by drawing the line from one pin to the other.
+}{Add and connect the Processor System Reset block.}
+
+% Step 20
+\step{Connecting clock lines}{
+    \item Connect the \texttt{FCLK\_CLK0} to the \texttt{M\_AXI\_GP0\_ACLK}.
+}{Connect the clock lines.}
+
+% Step 21
+\step{Adding the AXI Interconnect block}{
+    \item Add the next Block IP by clicking the small plus icon.
+    \item Search for AXI Interconnect.
+    \item Double-click to add.
+}{Add the AXI Interconnect block.}
+
+% Step 22
+\step{Connecting the AXI Interconnect}{
+    \item The AXI Interconnect Block should appear on your screen.
+    \item Move blocks around by dragging them across the screen to make connections easier.
+    \item Connect the Clock line \texttt{(FCLK\_CLK0)} and AXI GPIO line \texttt{(M\_AXI\_GP0)} from ZYNQ 7 Processing System to the AXI Interconnect as seen on the screen.
+    \item Connect the \texttt{“interconnect\_aresetn”} from Processor System Reset to AXI Interconnect as seen on the screen.
+    \item As you connect, you should see small green ticks indicating where you can (not always should) connect the lines.
+}{Connect the AXI Interconnect block.}
+
+% Step 23
+\step{Adding existing GPIO from the board}{
+    \item After creating the AXI Interconnect, we need to add existing GPIO from the board.
+    \item On your left tab, select the Board Tab at the top.
+    \item You should see the EBAZ4205 Development Board.
+}{Add existing GPIO from the board.}
+
+% Step 24
+\step{Auto-connecting the GPIO}{
+    \item Right-click on existing GPIO (LEDs).
+    \item Select Auto Connect.
+}{Auto-connect the GPIO.}
+
+% Step 25
+\step{Confirming auto-connect}{
+    \item Click OK on the Auto Connect message.
+}{Confirm the auto-connect action.}
+
+% Step 26
+\step{Connecting the AXI\_GPIO\_0 block}{
+    \item This will create an \texttt{AXI\_GPIO\_0} block.
+    \item Connect the block as seen on the screen.
+    \item Connect the clock \texttt{(s\_axi\_aclk)} to \texttt{FCLK\_CLK0.}
+    \item Connect reset (s\_axi\_aresetn) to the interconnect\_aresetn.
+}{Connect the AXI\_GPIO\_0 block.}
+
+% Step 27
+\step{Completing the block design}{
+    \item Your block design is now complete.
+    \item Right-click on empty space on the diagram to show Diagram options.
+    \item Click on Regenerate Layout for convenience.
+}{Complete and clean up the block design.}
+
+% Step 28
+\step{Validating the design}{
+    \item Your block design should now look cleaner and more concise.
+    \item Click on Validate the design at the top (small check box icon).
+}{Validate the block design.}
+
+% Step 29
+\step{Saving changes and auto-addressing}{
+    \item Save all changes and click on Auto Assign Addresses at the top.
+}{Save changes and auto-address the design.}
+
+% Step 30
+\step{Viewing the address map}{
+    \item You can now see the address map of your design.
+}{View the address map of your design.}
+
+% Step 31
+\step{Returning to the sources tab}{
+    \item To go back to the overview of the diagram, click the sources tab at the top.
+}{Return to the sources tab.}
+
+% Step 32
+\step{Expanding the source files}{
+    \item Now you should see all the sources in your design.
+    \item If they are in the folder format, click the expand all button.
+}{Expand the source files.}
+
+% Step 33
+\step{Creating HDL wrapper}{
+    \item Right-click on your main source file (should be the only one).
+    \item Select Create HDL Wrapper option.
+}{Create the HDL wrapper.}
+
+% Step 34
+\step{Managing the HDL wrapper}{
+    \item Ensure that Let Vivado manage wrapper and auto-update is selected.
+    \item Click OK.
+}{Manage the HDL wrapper.}
+
+% Step 35
+\step{Generating the Bitstream}{
+    \item Wait until the Wrapper Creation is fully completed.
+    \item Click the small green arrow with 1s and 0s at the top to Generate Bitstream.
+}{Generate the Bitstream.}
+
+% Step 36
+\step{Confirming Bitstream generation}{
+    \item Click OK.
+}{Confirm Bitstream generation.}
+
+% Step 37
+\step{Running on local host}{
+    \item Ensure the option says run on local host.
+    \item Click OK (the number of jobs is not important and is to do with the CPU usage and generation time).
+}{Run the process on the local host.}
+
+% Step 38
+\step{Waiting for Bitstream generation}{
+    \item Wait until the Bitstream is generated (might take a while).
+    \item The Bitstream is fully generated once you receive the Bitstream Generation Completed message.
+    \item Ensure that Open Implemented Design is selected.
+    \item Click OK.
+}{Wait for the Bitstream generation to complete.}
+
+% Step 39
+\step{Viewing the system implementation diagram}{
+    \item You should now see a colorful system implementation diagram.
+}{View the system implementation diagram.}
+
+% Step 40
+\step{Exporting the hardware}{
+    \item Go to the File tab at the top.
+    \item Select Export -> Export Hardware.
+}{Export the hardware configuration.}
+
+% Step 41
+\step{Starting the hardware platform creation}{
+    \item You’re welcomed to the Hardware Platform Creation.
+    \item Click Next.
+}{Start the hardware platform creation process.}
+
+% Step 42
+\step{Including the Bitstream}{
+    \item Ensure that the Include Bitstream option is selected.
+    \item Click Next.
+}{Include the Bitstream in the export.}
+
+% Step 43
+\step{Naming the hardware platform}{
+    \item Give a name to your platform or leave the default.
+    \item Click Next.
+}{Name the hardware platform.}
+
+% Step 44
+\step{Reviewing the summary}{
+    \item The summary should look something like this.
+    \item Click Finish.
+}{Review and confirm the summary.}
+
+% Step 45
+\step{Launching Vitis IDE}{
+    \item Go to the Tool tab.
+    \item Select Launch Vitis IDE.
+}{Launch Vitis IDE for software implementation.}
+
+% Step 46
+\step{Accessing Vitis IDE}{
+    \item You’re welcomed to the Vitis IDE used for software implementation.
+}{Access Vitis IDE.}
+
+% Step 47
+\step{Creating a platform component}{
+    \item Click on Create Platform Component in the Embedded Development section.
+}{Create a platform component in Vitis IDE.}
+
+% Step 48
+\step{Browsing for the component location}{
+    \item Click Browse in the component location.
+}{Browse for the component location.}
+
+% Step 49
+\step{Selecting the Vivado project location}{
+    \item Select the location you chose for your Vivado project.
+    \item It should look something like this.
+}{Select the Vivado project location.}
+
+% Step 50
+\step{Proceeding with the selected location}{
+    \item After the location is correctly selected, click Next.
+}{Proceed with the selected location.}
+
+% Step 51
+\step{Selecting the hardware platform}{
+    \item Click Browse to select your hardware platform that we generated from Vivado.
+}{Select the hardware platform.}
+
+% Step 52
+\step{Verifying the hardware platform file}{
+    \item Ensure that the file you chose has a .xsa extension.
+}{Verify the hardware platform file.}
+
+% Step 53
+\step{Continuing with the hardware platform selection}{
+    \item Click Next to proceed.
+}{Continue with the hardware platform selection.}
+
+% Step 54
+\step{Configuring the operating system and processor}{
+    \item If performed correctly, the operating system and processor should be automatically configured as seen.
+    \item Click Next.
+}{Configure the operating system and processor.}
+
+% Step 55
+\step{Reviewing the configuration summary}{
+    \item If done correctly, your summary should look like this.
+    \item Click Finish.
+}{Review and confirm the configuration summary.}
+
+% Step 56
+\step{Viewing the Embedded Design Editor}{
+    \item You should now be welcomed to the Embedded Design Editor.
+    \item Your screen should look something like this.
+    \item The platform should be the only existing file.
+    \item If you don’t see the platform, repeat the platform creation from the tab on the left, by clicking Create Platform Component.
+}{View the Embedded Design Editor.}
+
+% Step 57
+\step{Selecting the Examples tab}{
+    \item On the left of your screen, select the Examples tab.
+}{Select the Examples tab.}
+
+% Step 58
+\step{Creating an application component}{
+    \item Find the example you desire (in our case it's Hello World).
+    \item Select it and click on Create Application Component from Template.
+}{Create an application component from a template.}
+
+% Step 59
+\step{Naming the application}{
+    \item You can change the name of your application or leave the default.
+    \item Click Next.
+}{Name the application.}
+
+% Step 60
+\step{Selecting the platform}{
+    \item Select the platform we just created (should be the only available platform).
+}{Select the platform.}
+
+% Step 61
+\step{Proceeding with the platform selection}{
+    \item Click Next to proceed.
+}{Proceed with the platform selection.}
+
+% Step 62
+\step{Selecting the domain}{
+    \item Select the only existing domain.
+    \item Click Next.
+}{Select the domain.}
+
+% Step 63
+\step{Reviewing the application summary}{
+    \item If done correctly, your summary should look like this.
+    \item Click Finish.
+}{Review and confirm the application summary.}
+
+% Step 64
+\step{Viewing the application source files}{
+    \item Now back in the Embedded Development tab, you should see an application.
+    \item You can open the directories to see and modify the source file of your application.
+}{View and modify the application source files.}
+
+% Step 65
+\step{Building the application}{
+    \item At the bottom left, select the Build option.
+    \item Ensure that at the top, the component displays the name of your application.
+}{Build the application.}
+
+% Step 66
+\step{Confirming the build}{
+    \item Click OK to build both the platform and application at the same time.
+}{Confirm the build process.}
+
+% Step 67
+\step{Viewing the build completion}{
+    \item You should now see a green tick mark next to the build option.
+    \item This tick mark will disappear if you modify any of the source files, and you will have to rebuild the project again.
+    \item Click Create Boot Image as we are writing to an SD card.
+}{View the build completion and create the boot image.}
+
+% Step 68
+\step{Creating the boot image}{
+    \item You should be welcomed by the Boot Image creation screen.
+    \item We won't change anything and click Create Image.
+}{Create the boot image.}
+
+% Step 69
+\step{Viewing the boot image creation message}{
+    \item After a moment, you should see the following message in your terminal.
+    \item Remember the location of your boot image.
+    \item It should look similar to the one on the screen.
+}{View the boot image creation message.}
+
+% Step 70
+\step{Finding the boot image}{
+    \item Find the boot image in your file explorer.
+    \item The path should look like this: \texttt{“[project name]/[Application Name]/\_ide/bootimage”.}
+    \item In my case, \texttt{“project\_2/hello\_world/\_ide/bootimage”.}
+    \item Place this file onto your SD card and put the SD card into the EBAZ4205 Development board.
+    \item Connect the UART module to the computer and turn on the board.
+}{Find the boot image and transfer it to the SD card.}
+
+\newpage
+\section{Conclusion}
+This guide has walked you through the basic steps of using the software. Refer to the user manual or help section within the software for more detailed instructions and advanced features.
+
+\end{document}
