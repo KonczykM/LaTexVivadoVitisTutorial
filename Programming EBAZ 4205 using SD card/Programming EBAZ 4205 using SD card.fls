@@ -49,9 +49,9 @@ INPUT ./Programming EBAZ 4205 using SD card.toc
 INPUT ./Programming EBAZ 4205 using SD card.toc
 INPUT Programming EBAZ 4205 using SD card.toc
 INPUT /opt/homebrew/Cellar/texlive/20240312/share/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
+OUTPUT Programming EBAZ 4205 using SD card.toc
 OUTPUT Programming EBAZ 4205 using SD card.pdf
 INPUT /opt/homebrew/Cellar/texlive/20240312/share/texmf-dist/fonts/map/pdftex/updmap/pdftex.map
-OUTPUT Programming EBAZ 4205 using SD card.toc
 INPUT /opt/homebrew/Cellar/texlive/20240312/share/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
 INPUT /opt/homebrew/Cellar/texlive/20240312/share/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT /opt/homebrew/Cellar/texlive/20240312/share/texmf-dist/fonts/tfm/public/cm/cmtt10.tfm

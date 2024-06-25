@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1719277657.12598 "/Users/martin/git/LaTexVivadoVitisTutorial/Programming EBAZ 4205 using SD card/Programming EBAZ 4205 using SD card.tex" "Programming EBAZ 4205 using SD card.pdf" "Programming EBAZ 4205 using SD card" 1719277666.0579 0
-  "/Users/martin/git/LaTexVivadoVitisTutorial/Programming EBAZ 4205 using SD card/Programming EBAZ 4205 using SD card.tex" 1719277639.11702 16548 a7874e081e7b96db693f6a313c05d7dc ""
+["pdflatex"] 1719309958.16453 "/Users/martin/git/LaTexVivadoVitisTutorial/Programming EBAZ 4205 using SD card/Programming EBAZ 4205 using SD card.tex" "Programming EBAZ 4205 using SD card.pdf" "Programming EBAZ 4205 using SD card" 1719309967.08503 0
+  "/Users/martin/git/LaTexVivadoVitisTutorial/Programming EBAZ 4205 using SD card/Programming EBAZ 4205 using SD card.tex" 1719309949.05505 16642 2dc27980033cb8ba7d223d683b6b0454 ""
   "/opt/homebrew/Cellar/texlive/20240312/share/texmf-dist/fonts/map/fontname/texfonts.map" 1710106625 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/opt/homebrew/Cellar/texlive/20240312/share/texmf-dist/fonts/map/pdftex/updmap/pdftex.map" 1710106625 5472554 f7861620179a71a79d4bd86251f559d0 ""
   "/opt/homebrew/Cellar/texlive/20240312/share/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1710106625 1328 c834bbb027764024c09d3d2bf908b5f0 ""
@@ -28,9 +28,9 @@
   "/opt/homebrew/Cellar/texlive/20240312/share/texmf-dist/tex/latex/placeins/placeins.sty" 1710106625 4087 636308456f60d2b31cbf97867db5708d ""
   "/opt/homebrew/Cellar/texlive/20240312/share/texmf-dist/web2c/texmf.cnf" 1710106625 41652 e14926ab86fde7902cad99d9eeaa5ca5 ""
   "/opt/homebrew/Cellar/texlive/20240312/share/texmf-var/web2c/pdftex/pdflatex.fmt" 1710106625 8221866 9aed0a1b2ac5e8bec4cefaf91f11118a ""
-  "Programming EBAZ 4205 using SD card.aux" 1719277665.99013 22452 680d9a43dbd0b42b97ce9d98d0f02869 "pdflatex"
-  "Programming EBAZ 4205 using SD card.tex" 1719277639.11702 16548 a7874e081e7b96db693f6a313c05d7dc ""
-  "Programming EBAZ 4205 using SD card.toc" 1719277665.99227 6675 f5a5908bd1a4f320ecea406cf34a8928 "pdflatex"
+  "Programming EBAZ 4205 using SD card.aux" 1719309967.01505 13388 6156a4a7c7a8aef6e789570827a4843a "pdflatex"
+  "Programming EBAZ 4205 using SD card.tex" 1719309949.05505 16642 2dc27980033cb8ba7d223d683b6b0454 ""
+  "Programming EBAZ 4205 using SD card.toc" 1719309967.01633 401 0d2968c289dd06e0178d773c110236c8 "pdflatex"
   "images/step1.png" 1717684298 704057 59f8e87d6fb6e19661902129fba70168 ""
   "images/step10.png" 1717684846 40087 856f9093f00fab382c7a534386713eca ""
   "images/step11.png" 1717684903 205335 7a716ccfae099985ad89771b7b21f51d ""
