@@ -1,11 +1,13 @@
 # Fdb version 4
-["pdflatex"] 1719115391.56813 "/Users/martin/git/LaTexVivadoVitisTutorial/Programming EBAZ 4205 using SD card/Programming EBAZ 4205 using SD card.tex" "Programming EBAZ 4205 using SD card.pdf" "Programming EBAZ 4205 using SD card" 1719115400.43104 0
-  "/Users/martin/git/LaTexVivadoVitisTutorial/Programming EBAZ 4205 using SD card/Programming EBAZ 4205 using SD card.tex" 1719115311.34987 16522 e36a0ded36fc5b52faf6a252f53f0e1c ""
+["pdflatex"] 1719277657.12598 "/Users/martin/git/LaTexVivadoVitisTutorial/Programming EBAZ 4205 using SD card/Programming EBAZ 4205 using SD card.tex" "Programming EBAZ 4205 using SD card.pdf" "Programming EBAZ 4205 using SD card" 1719277666.0579 0
+  "/Users/martin/git/LaTexVivadoVitisTutorial/Programming EBAZ 4205 using SD card/Programming EBAZ 4205 using SD card.tex" 1719277639.11702 16548 a7874e081e7b96db693f6a313c05d7dc ""
   "/opt/homebrew/Cellar/texlive/20240312/share/texmf-dist/fonts/map/fontname/texfonts.map" 1710106625 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/opt/homebrew/Cellar/texlive/20240312/share/texmf-dist/fonts/map/pdftex/updmap/pdftex.map" 1710106625 5472554 f7861620179a71a79d4bd86251f559d0 ""
+  "/opt/homebrew/Cellar/texlive/20240312/share/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1710106625 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "/opt/homebrew/Cellar/texlive/20240312/share/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1710106625 1324 c910af8c371558dc20f2d7822f66fe64 ""
   "/opt/homebrew/Cellar/texlive/20240312/share/texmf-dist/fonts/tfm/public/cm/cmr12.tfm" 1710106625 1288 655e228510b4c2a1abe905c368440826 ""
   "/opt/homebrew/Cellar/texlive/20240312/share/texmf-dist/fonts/tfm/public/cm/cmtt10.tfm" 1710106625 768 1321e9409b4137d6fb428ac9dc956269 ""
+  "/opt/homebrew/Cellar/texlive/20240312/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb" 1710106625 34811 78b52f49e893bcba91bd7581cdc144c0 ""
   "/opt/homebrew/Cellar/texlive/20240312/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb" 1710106625 32080 340ef9bf63678554ee606688e7b5339d ""
   "/opt/homebrew/Cellar/texlive/20240312/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1710106625 35752 024fb6c41858982481f6968b5fc26508 ""
   "/opt/homebrew/Cellar/texlive/20240312/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb" 1710106625 31099 c85edf1dd5b9e826d67c9c7293b6786c ""
@@ -26,8 +28,9 @@
   "/opt/homebrew/Cellar/texlive/20240312/share/texmf-dist/tex/latex/placeins/placeins.sty" 1710106625 4087 636308456f60d2b31cbf97867db5708d ""
   "/opt/homebrew/Cellar/texlive/20240312/share/texmf-dist/web2c/texmf.cnf" 1710106625 41652 e14926ab86fde7902cad99d9eeaa5ca5 ""
   "/opt/homebrew/Cellar/texlive/20240312/share/texmf-var/web2c/pdftex/pdflatex.fmt" 1710106625 8221866 9aed0a1b2ac5e8bec4cefaf91f11118a ""
-  "Programming EBAZ 4205 using SD card.aux" 1719115400.36579 13044 79050dbdd9ae332219957b042e15d66e "pdflatex"
-  "Programming EBAZ 4205 using SD card.tex" 1719115311.34987 16522 e36a0ded36fc5b52faf6a252f53f0e1c ""
+  "Programming EBAZ 4205 using SD card.aux" 1719277665.99013 22452 680d9a43dbd0b42b97ce9d98d0f02869 "pdflatex"
+  "Programming EBAZ 4205 using SD card.tex" 1719277639.11702 16548 a7874e081e7b96db693f6a313c05d7dc ""
+  "Programming EBAZ 4205 using SD card.toc" 1719277665.99227 6675 f5a5908bd1a4f320ecea406cf34a8928 "pdflatex"
   "images/step1.png" 1717684298 704057 59f8e87d6fb6e19661902129fba70168 ""
   "images/step10.png" 1717684846 40087 856f9093f00fab382c7a534386713eca ""
   "images/step11.png" 1717684903 205335 7a716ccfae099985ad89771b7b21f51d ""
@@ -103,4 +106,5 @@
   "Programming EBAZ 4205 using SD card.aux"
   "Programming EBAZ 4205 using SD card.log"
   "Programming EBAZ 4205 using SD card.pdf"
+  "Programming EBAZ 4205 using SD card.toc"
   (rewritten before read)

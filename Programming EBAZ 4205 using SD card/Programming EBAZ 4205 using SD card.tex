@@ -12,7 +12,7 @@
 \newcounter{step}
 \newcommand{\step}[3]{
     \refstepcounter{step}
-    \subsection*{Step \thestep: #1}
+    \subsection{Step \thestep: #1}
     \begin{enumerate}
         #2
     \end{enumerate}
@@ -27,6 +27,9 @@
 }
 
 \begin{document}
+
+\tableofcontents
+\newpage
 
 \section{Introduction}
 This guide provides step-by-step instructions on how to use the software program. Each step is illustrated with an image to help you understand the process better.
