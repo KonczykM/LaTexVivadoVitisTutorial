@@ -1,6 +1,6 @@
 \contentsline {section}{\numberline {1}Introduction}{2}{}%
 \contentsline {section}{\numberline {2}Step-by-Step Guide}{3}{}%
 \contentsline {subsection}{\numberline {2.1}Importing Board Files}{3}{}%
-\contentsline {subsection}{\numberline {2.2}Vivado work flow}{6}{}%
-\contentsline {subsection}{\numberline {2.3}Vitis Unfied IDE workflow}{44}{}%
-\contentsline {section}{\numberline {3}Conclusion}{74}{}%
+\contentsline {subsection}{\numberline {2.2}Vivado work flow}{4}{}%
+\contentsline {subsection}{\numberline {2.3}Vitis Unfied IDE workflow}{22}{}%
+\contentsline {section}{\numberline {3}Conclusion}{31}{}%
