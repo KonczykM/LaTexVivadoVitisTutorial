@@ -1,6 +1,31 @@
-\contentsline {section}{\numberline {1}Introduction}{2}{}%
-\contentsline {section}{\numberline {2}Step-by-Step Guide}{3}{}%
-\contentsline {subsection}{\numberline {2.1}Importing Board Files}{3}{}%
-\contentsline {subsection}{\numberline {2.2}Vivado work flow}{4}{}%
-\contentsline {subsection}{\numberline {2.3}Vitis Unfied IDE workflow}{22}{}%
-\contentsline {section}{\numberline {3}Conclusion}{31}{}%
+\contentsline {section}{\numberline {1}Importing Board Files}{2}{}%
+\contentsline {subsection}{\numberline {1.1}Step 1: Downloading the Ebaz board files}{2}{}%
+\contentsline {section}{\numberline {2}Vivado work flow}{3}{}%
+\contentsline {subsection}{\numberline {2.1}Step 2: Starting a new project in Vivado}{3}{}%
+\contentsline {subsection}{\numberline {2.2}Step 3: Selecting the project type}{4}{}%
+\contentsline {subsection}{\numberline {2.3}Step 4: Board selection}{5}{}%
+\contentsline {subsection}{\numberline {2.4}Step 5: Creating a block design}{6}{}%
+\contentsline {subsection}{\numberline {2.5}Step 6: Adding a new IP block}{7}{}%
+\contentsline {subsection}{\numberline {2.6}Step 7: Running block automation}{8}{}%
+\contentsline {subsection}{\numberline {2.7}Step 8: Configuring the ZYNQ 7 Processing System}{9}{}%
+\contentsline {subsection}{\numberline {2.8}Step 9: Configuring I/O pins}{10}{}%
+\contentsline {subsection}{\numberline {2.9}Step 10: Adding more Block IPs}{11}{}%
+\contentsline {subsection}{\numberline {2.10}Step 11: Adding the AXI Interconnect block}{12}{}%
+\contentsline {subsection}{\numberline {2.11}Step 12: Adding existing GPIO from the board}{13}{}%
+\contentsline {subsection}{\numberline {2.12}Step 13: Connecting the AXI\_GPIO\_0 block}{14}{}%
+\contentsline {subsection}{\numberline {2.13}Step 14: Completing the block design}{15}{}%
+\contentsline {subsection}{\numberline {2.14}Step 15: Validating the design}{16}{}%
+\contentsline {subsection}{\numberline {2.15}Step 16: Creating HDL wrapper}{17}{}%
+\contentsline {subsection}{\numberline {2.16}Step 17: Generating the Bitstream}{18}{}%
+\contentsline {subsection}{\numberline {2.17}Step 18: Exporting the hardware}{19}{}%
+\contentsline {subsection}{\numberline {2.18}Step 19: Launching Vitis IDE}{20}{}%
+\contentsline {section}{\numberline {3}Vitis Unfied IDE workflow}{21}{}%
+\contentsline {subsection}{\numberline {3.1}Step 20: Accessing Vitis IDE and creating platform}{21}{}%
+\contentsline {subsection}{\numberline {3.2}Step 21: Selecting the hardware platform}{22}{}%
+\contentsline {subsection}{\numberline {3.3}Step 22: Configuring the operating system and processor}{23}{}%
+\contentsline {subsection}{\numberline {3.4}Step 23: Embedded Design Editor}{24}{}%
+\contentsline {subsection}{\numberline {3.5}Step 24: Creating an application component}{25}{}%
+\contentsline {subsection}{\numberline {3.6}Step 25: Building application}{26}{}%
+\contentsline {subsection}{\numberline {3.7}Step 26: Creating the boot image}{27}{}%
+\contentsline {subsection}{\numberline {3.8}Step 27: Boot image location message}{28}{}%
+\contentsline {subsection}{\numberline {3.9}Step 28: Finding the boot image}{29}{}%

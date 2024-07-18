@@ -12,7 +12,7 @@
 \newcounter{step}
 \newcommand{\step}[3]{
     \refstepcounter{step}
-    \subsection*{Step \thestep: #1}
+    \subsection{Step \thestep: #1}
     \begin{enumerate}
         #2
     \end{enumerate}
@@ -27,17 +27,12 @@
 }
 
 \begin{document}
-
 \tableofcontents
 \newpage
 
-\section{Introduction}
-This guide provides step-by-step instructions on how to use the software program. Each step is illustrated with an image to help you understand the process better.
 
-\newpage
-\section{Step-by-Step Guide}
 
-\subsection{Importing Board Files}
+\section{Importing Board Files}
 % Step 1
 \step{Downloading the Ebaz board files}{
     \item Download the Ebaz board files from \texttt{https://github.com/XyleMora/EBAZ4205/tree/main}.
@@ -46,7 +41,7 @@ This guide provides step-by-step instructions on how to use the software program
     \item Place the board files into the destination folder at \texttt{/Xilinx/Vivado/2023.2/data/boards/board\_files.}
 }{Download the Ebaz board files from \texttt{https://github.com/XyleMora/EBAZ4205/tree/main}.}
 
-\subsection{Vivado work flow}
+\section{Vivado work flow}
 % Step 4
 \step{Starting a new project in Vivado}{
     \item Open Vivado.
@@ -206,7 +201,7 @@ This guide provides step-by-step instructions on how to use the software program
     \item Select Launch Vitis IDE.
 }{Launch Vitis IDE for software implementation.}
 
-\subsection{Vitis Unfied IDE workflow}
+\section{Vitis Unfied IDE workflow}
 
 % Step 46
 \step{Accessing Vitis IDE and creating platform}{
@@ -288,8 +283,5 @@ This guide provides step-by-step instructions on how to use the software program
     \item Connect the UART module to the computer and turn on the board.
 }{Find the boot image and transfer it to the SD card.}
 
-\newpage
-\section{Conclusion}
-This guide has walked you through the basic steps of using the software. Refer to the user manual or help section within the software for more detailed instructions and advanced features.
 
 \end{document}

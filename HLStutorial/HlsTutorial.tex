@@ -1,0 +1,33 @@
+\documentclass{article}
+\usepackage{graphicx} % Required for inserting images
+\usepackage{caption}
+\usepackage{placeins} % For \FloatBarrier
+
+
+\title{HLSGuide}
+\author{Marcin Konczyk}
+\date{July 2024}
+
+% Define a new Template for steps
+\newcounter{step}
+\newcommand{\step}[3]{
+    \refstepcounter{step}
+    \subsection{Step \thestep: #1}
+    \begin{enumerate}
+        #2
+    \end{enumerate}
+    \begin{figure}[h!]
+        \centering
+        \includegraphics[width=1.1\textwidth]{images/step\thestep.png}
+        \caption{#3}
+        \label{fig:step\thestep}
+    \end{figure}
+    \FloatBarrier
+    \newpage
+}
+
+\begin{document}
+\tableofcontents
+\newpage
+
+\end{document}
