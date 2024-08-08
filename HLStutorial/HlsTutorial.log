@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Homebrew) (preloaded format=pdflatex 2024.3.20)  8 AUG 2024 10:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Homebrew) (preloaded format=pdflatex 2024.3.20)  8 AUG 2024 12:59
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -60,7 +60,7 @@ Package caption Info: Standard document class detected.
 ) (/opt/homebrew/Cellar/texlive/20240312/share/texmf-dist/tex/latex/placeins/placeins.sty
 Package: placeins 2005/04/18  v 2.2
 )
-\c@step=\count198
+\c@hlsstep=\count198
  (/opt/homebrew/Cellar/texlive/20240312/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-02-20 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count199
@@ -115,472 +115,472 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 \openout3 = `HlsTutorial.toc'.
 
  [2]
-<images/step1.png, id=12, 1848.9075pt x 1054.94125pt>
-File: images/step1.png Graphic file (type png)
-<use images/step1.png>
-Package pdftex.def Info: images/step1.png  used on input line 38.
+<images/hlsstep1.png, id=12, 1848.9075pt x 1054.94125pt>
+File: images/hlsstep1.png Graphic file (type png)
+<use images/hlsstep1.png>
+Package pdftex.def Info: images/hlsstep1.png  used on input line 38.
 (pdftex.def)             Requested size: 379.5021pt x 216.52191pt.
 
 Overfull \hbox (34.5021pt too wide) in paragraph at lines 38--38
  [][] 
  []
 
-[3 <./images/step1.png>]
-<images/step2.png, id=18, 1848.9075pt x 1054.94125pt>
-File: images/step2.png Graphic file (type png)
-<use images/step2.png>
-Package pdftex.def Info: images/step2.png  used on input line 44.
+[3 <./images/hlsstep1.png>]
+<images/hlsstep2.png, id=18, 1848.9075pt x 1054.94125pt>
+File: images/hlsstep2.png Graphic file (type png)
+<use images/hlsstep2.png>
+Package pdftex.def Info: images/hlsstep2.png  used on input line 44.
 (pdftex.def)             Requested size: 379.5021pt x 216.52191pt.
 
 Overfull \hbox (34.5021pt too wide) in paragraph at lines 44--44
  [][] 
  []
 
-[4 <./images/step2.png>]
-<images/step3.png, id=23, 1848.9075pt x 1054.94125pt>
-File: images/step3.png Graphic file (type png)
-<use images/step3.png>
-Package pdftex.def Info: images/step3.png  used on input line 50.
+[4 <./images/hlsstep2.png>]
+<images/hlsstep3.png, id=23, 1848.9075pt x 1054.94125pt>
+File: images/hlsstep3.png Graphic file (type png)
+<use images/hlsstep3.png>
+Package pdftex.def Info: images/hlsstep3.png  used on input line 50.
 (pdftex.def)             Requested size: 379.5021pt x 216.52191pt.
 
 Overfull \hbox (34.5021pt too wide) in paragraph at lines 50--50
  [][] 
  []
 
-[5 <./images/step3.png>]
-<images/step4.png, id=28, 1848.9075pt x 1054.94125pt>
-File: images/step4.png Graphic file (type png)
-<use images/step4.png>
-Package pdftex.def Info: images/step4.png  used on input line 56.
+[5 <./images/hlsstep3.png>]
+<images/hlsstep4.png, id=28, 1848.9075pt x 1054.94125pt>
+File: images/hlsstep4.png Graphic file (type png)
+<use images/hlsstep4.png>
+Package pdftex.def Info: images/hlsstep4.png  used on input line 56.
 (pdftex.def)             Requested size: 379.5021pt x 216.52191pt.
 
 Overfull \hbox (34.5021pt too wide) in paragraph at lines 56--56
  [][] 
  []
 
-[6 <./images/step4.png>]
-<images/step5.png, id=33, 1848.9075pt x 1054.94125pt>
-File: images/step5.png Graphic file (type png)
-<use images/step5.png>
-Package pdftex.def Info: images/step5.png  used on input line 62.
+[6 <./images/hlsstep4.png>]
+<images/hlsstep5.png, id=33, 1848.9075pt x 1054.94125pt>
+File: images/hlsstep5.png Graphic file (type png)
+<use images/hlsstep5.png>
+Package pdftex.def Info: images/hlsstep5.png  used on input line 62.
 (pdftex.def)             Requested size: 379.5021pt x 216.52191pt.
 
 Overfull \hbox (34.5021pt too wide) in paragraph at lines 62--62
  [][] 
  []
 
-[7 <./images/step5.png>]
-<images/step6.png, id=39, 1848.9075pt x 1054.94125pt>
-File: images/step6.png Graphic file (type png)
-<use images/step6.png>
-Package pdftex.def Info: images/step6.png  used on input line 68.
+[7 <./images/hlsstep5.png>]
+<images/hlsstep6.png, id=39, 1848.9075pt x 1054.94125pt>
+File: images/hlsstep6.png Graphic file (type png)
+<use images/hlsstep6.png>
+Package pdftex.def Info: images/hlsstep6.png  used on input line 68.
 (pdftex.def)             Requested size: 379.5021pt x 216.52191pt.
 
 Overfull \hbox (34.5021pt too wide) in paragraph at lines 68--68
  [][] 
  []
 
-[8 <./images/step6.png>]
-<images/step7.png, id=44, 1848.9075pt x 1054.94125pt>
-File: images/step7.png Graphic file (type png)
-<use images/step7.png>
-Package pdftex.def Info: images/step7.png  used on input line 74.
+[8 <./images/hlsstep6.png>]
+<images/hlsstep7.png, id=44, 1848.9075pt x 1054.94125pt>
+File: images/hlsstep7.png Graphic file (type png)
+<use images/hlsstep7.png>
+Package pdftex.def Info: images/hlsstep7.png  used on input line 74.
 (pdftex.def)             Requested size: 379.5021pt x 216.52191pt.
 
 Overfull \hbox (34.5021pt too wide) in paragraph at lines 74--74
  [][] 
  []
 
-[9 <./images/step7.png>]
-<images/step8.png, id=49, 1848.9075pt x 1054.94125pt>
-File: images/step8.png Graphic file (type png)
-<use images/step8.png>
-Package pdftex.def Info: images/step8.png  used on input line 79.
+[9 <./images/hlsstep7.png>]
+<images/hlsstep8.png, id=49, 1848.9075pt x 1054.94125pt>
+File: images/hlsstep8.png Graphic file (type png)
+<use images/hlsstep8.png>
+Package pdftex.def Info: images/hlsstep8.png  used on input line 79.
 (pdftex.def)             Requested size: 379.5021pt x 216.52191pt.
 
 Overfull \hbox (34.5021pt too wide) in paragraph at lines 79--79
  [][] 
  []
 
-[10 <./images/step8.png>]
-<images/step9.png, id=54, 1848.9075pt x 1054.94125pt>
-File: images/step9.png Graphic file (type png)
-<use images/step9.png>
-Package pdftex.def Info: images/step9.png  used on input line 83.
+[10 <./images/hlsstep8.png>]
+<images/hlsstep9.png, id=54, 1848.9075pt x 1054.94125pt>
+File: images/hlsstep9.png Graphic file (type png)
+<use images/hlsstep9.png>
+Package pdftex.def Info: images/hlsstep9.png  used on input line 83.
 (pdftex.def)             Requested size: 379.5021pt x 216.52191pt.
 
 Overfull \hbox (34.5021pt too wide) in paragraph at lines 83--83
  [][] 
  []
 
-[11 <./images/step9.png>]
-<images/step10.png, id=59, 1848.9075pt x 1054.94125pt>
-File: images/step10.png Graphic file (type png)
-<use images/step10.png>
-Package pdftex.def Info: images/step10.png  used on input line 88.
+[11 <./images/hlsstep9.png>]
+<images/hlsstep10.png, id=59, 1848.9075pt x 1054.94125pt>
+File: images/hlsstep10.png Graphic file (type png)
+<use images/hlsstep10.png>
+Package pdftex.def Info: images/hlsstep10.png  used on input line 88.
 (pdftex.def)             Requested size: 379.5021pt x 216.52191pt.
 
 Overfull \hbox (34.5021pt too wide) in paragraph at lines 88--88
  [][] 
  []
 
-[12 <./images/step10.png>]
+[12 <./images/hlsstep10.png>]
 Overfull \hbox (2.27718pt too wide) in paragraph at lines 93--93
 []\OT1/cmr/m/n/10 Once the Vi-tis IDE is loaded fully se-lect the folder for the project workspace
  []
 
-<images/step11.png, id=64, 1848.9075pt x 1054.94125pt>
-File: images/step11.png Graphic file (type png)
-<use images/step11.png>
-Package pdftex.def Info: images/step11.png  used on input line 93.
+<images/hlsstep11.png, id=64, 1848.9075pt x 1054.94125pt>
+File: images/hlsstep11.png Graphic file (type png)
+<use images/hlsstep11.png>
+Package pdftex.def Info: images/hlsstep11.png  used on input line 93.
 (pdftex.def)             Requested size: 379.5021pt x 216.52191pt.
 
 Overfull \hbox (34.5021pt too wide) in paragraph at lines 93--93
  [][] 
  []
 
-[13 <./images/step11.png>]
-<images/step12.png, id=70, 1848.9075pt x 1054.94125pt>
-File: images/step12.png Graphic file (type png)
-<use images/step12.png>
-Package pdftex.def Info: images/step12.png  used on input line 99.
+[13 <./images/hlsstep11.png>]
+<images/hlsstep12.png, id=70, 1848.9075pt x 1054.94125pt>
+File: images/hlsstep12.png Graphic file (type png)
+<use images/hlsstep12.png>
+Package pdftex.def Info: images/hlsstep12.png  used on input line 99.
 (pdftex.def)             Requested size: 379.5021pt x 216.52191pt.
 
 Overfull \hbox (34.5021pt too wide) in paragraph at lines 99--99
  [][] 
  []
 
-[14 <./images/step12.png>]
-<images/step13.png, id=75, 1848.9075pt x 1054.94125pt>
-File: images/step13.png Graphic file (type png)
-<use images/step13.png>
-Package pdftex.def Info: images/step13.png  used on input line 104.
+[14 <./images/hlsstep12.png>]
+<images/hlsstep13.png, id=75, 1848.9075pt x 1054.94125pt>
+File: images/hlsstep13.png Graphic file (type png)
+<use images/hlsstep13.png>
+Package pdftex.def Info: images/hlsstep13.png  used on input line 104.
 (pdftex.def)             Requested size: 379.5021pt x 216.52191pt.
 
 Overfull \hbox (34.5021pt too wide) in paragraph at lines 104--104
  [][] 
  []
 
-[15 <./images/step13.png>]
-<images/step14.png, id=80, 1848.9075pt x 1054.94125pt>
-File: images/step14.png Graphic file (type png)
-<use images/step14.png>
-Package pdftex.def Info: images/step14.png  used on input line 109.
+[15 <./images/hlsstep13.png>]
+<images/hlsstep14.png, id=80, 1848.9075pt x 1054.94125pt>
+File: images/hlsstep14.png Graphic file (type png)
+<use images/hlsstep14.png>
+Package pdftex.def Info: images/hlsstep14.png  used on input line 109.
 (pdftex.def)             Requested size: 379.5021pt x 216.52191pt.
 
 Overfull \hbox (34.5021pt too wide) in paragraph at lines 109--109
  [][] 
  []
 
-[16 <./images/step14.png>]
-<images/step15.png, id=85, 1848.9075pt x 1054.94125pt>
-File: images/step15.png Graphic file (type png)
-<use images/step15.png>
-Package pdftex.def Info: images/step15.png  used on input line 116.
+[16 <./images/hlsstep14.png>]
+<images/hlsstep15.png, id=85, 1848.9075pt x 1054.94125pt>
+File: images/hlsstep15.png Graphic file (type png)
+<use images/hlsstep15.png>
+Package pdftex.def Info: images/hlsstep15.png  used on input line 116.
 (pdftex.def)             Requested size: 379.5021pt x 216.52191pt.
 
 Overfull \hbox (34.5021pt too wide) in paragraph at lines 116--116
  [][] 
  []
 
-[17 <./images/step15.png>]
-<images/step16.png, id=90, 1848.9075pt x 1054.94125pt>
-File: images/step16.png Graphic file (type png)
-<use images/step16.png>
-Package pdftex.def Info: images/step16.png  used on input line 121.
+[17 <./images/hlsstep15.png>]
+<images/hlsstep16.png, id=90, 1848.9075pt x 1054.94125pt>
+File: images/hlsstep16.png Graphic file (type png)
+<use images/hlsstep16.png>
+Package pdftex.def Info: images/hlsstep16.png  used on input line 121.
 (pdftex.def)             Requested size: 379.5021pt x 216.52191pt.
 
 Overfull \hbox (34.5021pt too wide) in paragraph at lines 121--121
  [][] 
  []
 
-[18 <./images/step16.png>]
-<images/step17.png, id=95, 1848.9075pt x 1054.94125pt>
-File: images/step17.png Graphic file (type png)
-<use images/step17.png>
-Package pdftex.def Info: images/step17.png  used on input line 126.
+[18 <./images/hlsstep16.png>]
+<images/hlsstep17.png, id=95, 1848.9075pt x 1054.94125pt>
+File: images/hlsstep17.png Graphic file (type png)
+<use images/hlsstep17.png>
+Package pdftex.def Info: images/hlsstep17.png  used on input line 126.
 (pdftex.def)             Requested size: 379.5021pt x 216.52191pt.
 
 Overfull \hbox (34.5021pt too wide) in paragraph at lines 126--126
  [][] 
  []
 
-[19 <./images/step17.png>]
-<images/step18.png, id=101, 1848.9075pt x 1054.94125pt>
-File: images/step18.png Graphic file (type png)
-<use images/step18.png>
-Package pdftex.def Info: images/step18.png  used on input line 132.
+[19 <./images/hlsstep17.png>]
+<images/hlsstep18.png, id=101, 1848.9075pt x 1054.94125pt>
+File: images/hlsstep18.png Graphic file (type png)
+<use images/hlsstep18.png>
+Package pdftex.def Info: images/hlsstep18.png  used on input line 132.
 (pdftex.def)             Requested size: 379.5021pt x 216.52191pt.
 
 Overfull \hbox (34.5021pt too wide) in paragraph at lines 132--132
  [][] 
  []
 
-[20 <./images/step18.png>]
-<images/step19.png, id=106, 1848.9075pt x 1054.94125pt>
-File: images/step19.png Graphic file (type png)
-<use images/step19.png>
-Package pdftex.def Info: images/step19.png  used on input line 137.
+[20 <./images/hlsstep18.png>]
+<images/hlsstep19.png, id=106, 1848.9075pt x 1054.94125pt>
+File: images/hlsstep19.png Graphic file (type png)
+<use images/hlsstep19.png>
+Package pdftex.def Info: images/hlsstep19.png  used on input line 137.
 (pdftex.def)             Requested size: 379.5021pt x 216.52191pt.
 
 Overfull \hbox (34.5021pt too wide) in paragraph at lines 137--137
  [][] 
  []
 
-[21 <./images/step19.png>]
-<images/step20.png, id=111, 1848.9075pt x 1054.94125pt>
-File: images/step20.png Graphic file (type png)
-<use images/step20.png>
-Package pdftex.def Info: images/step20.png  used on input line 143.
+[21 <./images/hlsstep19.png>]
+<images/hlsstep20.png, id=111, 1848.9075pt x 1054.94125pt>
+File: images/hlsstep20.png Graphic file (type png)
+<use images/hlsstep20.png>
+Package pdftex.def Info: images/hlsstep20.png  used on input line 143.
 (pdftex.def)             Requested size: 379.5021pt x 216.52191pt.
 
 Overfull \hbox (34.5021pt too wide) in paragraph at lines 143--143
  [][] 
  []
 
-[22 <./images/step20.png>]
-<images/step21.png, id=116, 1848.9075pt x 1054.94125pt>
-File: images/step21.png Graphic file (type png)
-<use images/step21.png>
-Package pdftex.def Info: images/step21.png  used on input line 149.
+[22 <./images/hlsstep20.png>]
+<images/hlsstep21.png, id=116, 1848.9075pt x 1054.94125pt>
+File: images/hlsstep21.png Graphic file (type png)
+<use images/hlsstep21.png>
+Package pdftex.def Info: images/hlsstep21.png  used on input line 149.
 (pdftex.def)             Requested size: 379.5021pt x 216.52191pt.
 
 Overfull \hbox (34.5021pt too wide) in paragraph at lines 149--149
  [][] 
  []
 
-[23 <./images/step21.png>]
-<images/step22.png, id=121, 1848.9075pt x 1054.94125pt>
-File: images/step22.png Graphic file (type png)
-<use images/step22.png>
-Package pdftex.def Info: images/step22.png  used on input line 156.
+[23 <./images/hlsstep21.png>]
+<images/hlsstep22.png, id=121, 1848.9075pt x 1054.94125pt>
+File: images/hlsstep22.png Graphic file (type png)
+<use images/hlsstep22.png>
+Package pdftex.def Info: images/hlsstep22.png  used on input line 156.
 (pdftex.def)             Requested size: 379.5021pt x 216.52191pt.
 
 Overfull \hbox (34.5021pt too wide) in paragraph at lines 156--156
  [][] 
  []
 
-[24 <./images/step22.png>]
-<images/step23.png, id=126, 1848.9075pt x 1054.94125pt>
-File: images/step23.png Graphic file (type png)
-<use images/step23.png>
-Package pdftex.def Info: images/step23.png  used on input line 161.
+[24 <./images/hlsstep22.png>]
+<images/hlsstep23.png, id=126, 1848.9075pt x 1054.94125pt>
+File: images/hlsstep23.png Graphic file (type png)
+<use images/hlsstep23.png>
+Package pdftex.def Info: images/hlsstep23.png  used on input line 161.
 (pdftex.def)             Requested size: 379.5021pt x 216.52191pt.
 
 Overfull \hbox (34.5021pt too wide) in paragraph at lines 161--161
  [][] 
  []
 
-[25 <./images/step23.png>]
-<images/step24.png, id=132, 1848.9075pt x 1054.94125pt>
-File: images/step24.png Graphic file (type png)
-<use images/step24.png>
-Package pdftex.def Info: images/step24.png  used on input line 165.
+[25 <./images/hlsstep23.png>]
+<images/hlsstep24.png, id=132, 1848.9075pt x 1054.94125pt>
+File: images/hlsstep24.png Graphic file (type png)
+<use images/hlsstep24.png>
+Package pdftex.def Info: images/hlsstep24.png  used on input line 165.
 (pdftex.def)             Requested size: 379.5021pt x 216.52191pt.
 
 Overfull \hbox (34.5021pt too wide) in paragraph at lines 165--165
  [][] 
  []
 
-[26 <./images/step24.png>]
-<images/step25.png, id=137, 1848.9075pt x 1054.94125pt>
-File: images/step25.png Graphic file (type png)
-<use images/step25.png>
-Package pdftex.def Info: images/step25.png  used on input line 172.
+[26 <./images/hlsstep24.png>]
+<images/hlsstep25.png, id=137, 1848.9075pt x 1054.94125pt>
+File: images/hlsstep25.png Graphic file (type png)
+<use images/hlsstep25.png>
+Package pdftex.def Info: images/hlsstep25.png  used on input line 172.
 (pdftex.def)             Requested size: 379.5021pt x 216.52191pt.
 
 Overfull \hbox (34.5021pt too wide) in paragraph at lines 172--172
  [][] 
  []
 
-[27 <./images/step25.png>]
-<images/step26.png, id=142, 1848.9075pt x 1054.94125pt>
-File: images/step26.png Graphic file (type png)
-<use images/step26.png>
-Package pdftex.def Info: images/step26.png  used on input line 177.
+[27 <./images/hlsstep25.png>]
+<images/hlsstep26.png, id=142, 1848.9075pt x 1054.94125pt>
+File: images/hlsstep26.png Graphic file (type png)
+<use images/hlsstep26.png>
+Package pdftex.def Info: images/hlsstep26.png  used on input line 177.
 (pdftex.def)             Requested size: 379.5021pt x 216.52191pt.
 
 Overfull \hbox (34.5021pt too wide) in paragraph at lines 177--177
  [][] 
  []
 
-[28 <./images/step26.png>]
-<images/step27.png, id=147, 1848.9075pt x 1054.94125pt>
-File: images/step27.png Graphic file (type png)
-<use images/step27.png>
-Package pdftex.def Info: images/step27.png  used on input line 183.
+[28 <./images/hlsstep26.png>]
+<images/hlsstep27.png, id=147, 1848.9075pt x 1054.94125pt>
+File: images/hlsstep27.png Graphic file (type png)
+<use images/hlsstep27.png>
+Package pdftex.def Info: images/hlsstep27.png  used on input line 183.
 (pdftex.def)             Requested size: 379.5021pt x 216.52191pt.
 
 Overfull \hbox (34.5021pt too wide) in paragraph at lines 183--183
  [][] 
  []
 
-[29 <./images/step27.png>]
-<images/step28.png, id=152, 1848.9075pt x 1054.94125pt>
-File: images/step28.png Graphic file (type png)
-<use images/step28.png>
-Package pdftex.def Info: images/step28.png  used on input line 189.
+[29 <./images/hlsstep27.png>]
+<images/hlsstep28.png, id=152, 1848.9075pt x 1054.94125pt>
+File: images/hlsstep28.png Graphic file (type png)
+<use images/hlsstep28.png>
+Package pdftex.def Info: images/hlsstep28.png  used on input line 189.
 (pdftex.def)             Requested size: 379.5021pt x 216.52191pt.
 
 Overfull \hbox (34.5021pt too wide) in paragraph at lines 189--189
  [][] 
  []
 
-[30 <./images/step28.png>]
-<images/step29.png, id=157, 1848.9075pt x 1054.94125pt>
-File: images/step29.png Graphic file (type png)
-<use images/step29.png>
-Package pdftex.def Info: images/step29.png  used on input line 194.
+[30 <./images/hlsstep28.png>]
+<images/hlsstep29.png, id=157, 1848.9075pt x 1054.94125pt>
+File: images/hlsstep29.png Graphic file (type png)
+<use images/hlsstep29.png>
+Package pdftex.def Info: images/hlsstep29.png  used on input line 194.
 (pdftex.def)             Requested size: 379.5021pt x 216.52191pt.
 
 Overfull \hbox (34.5021pt too wide) in paragraph at lines 194--194
  [][] 
  []
 
-[31 <./images/step29.png>]
-<images/step30.png, id=163, 1848.9075pt x 1054.94125pt>
-File: images/step30.png Graphic file (type png)
-<use images/step30.png>
-Package pdftex.def Info: images/step30.png  used on input line 199.
+[31 <./images/hlsstep29.png>]
+<images/hlsstep30.png, id=163, 1848.9075pt x 1054.94125pt>
+File: images/hlsstep30.png Graphic file (type png)
+<use images/hlsstep30.png>
+Package pdftex.def Info: images/hlsstep30.png  used on input line 199.
 (pdftex.def)             Requested size: 379.5021pt x 216.52191pt.
 
 Overfull \hbox (34.5021pt too wide) in paragraph at lines 199--199
  [][] 
  []
 
-[32 <./images/step30.png>]
-<images/step31.png, id=168, 1848.9075pt x 1054.94125pt>
-File: images/step31.png Graphic file (type png)
-<use images/step31.png>
-Package pdftex.def Info: images/step31.png  used on input line 205.
+[32 <./images/hlsstep30.png>]
+<images/hlsstep31.png, id=168, 1848.9075pt x 1054.94125pt>
+File: images/hlsstep31.png Graphic file (type png)
+<use images/hlsstep31.png>
+Package pdftex.def Info: images/hlsstep31.png  used on input line 205.
 (pdftex.def)             Requested size: 379.5021pt x 216.52191pt.
 
 Overfull \hbox (34.5021pt too wide) in paragraph at lines 205--205
  [][] 
  []
 
-[33 <./images/step31.png>]
-<images/step32.png, id=173, 1848.9075pt x 1054.94125pt>
-File: images/step32.png Graphic file (type png)
-<use images/step32.png>
-Package pdftex.def Info: images/step32.png  used on input line 212.
+[33 <./images/hlsstep31.png>]
+<images/hlsstep32.png, id=173, 1848.9075pt x 1054.94125pt>
+File: images/hlsstep32.png Graphic file (type png)
+<use images/hlsstep32.png>
+Package pdftex.def Info: images/hlsstep32.png  used on input line 212.
 (pdftex.def)             Requested size: 379.5021pt x 216.52191pt.
 
 Overfull \hbox (34.5021pt too wide) in paragraph at lines 212--212
  [][] 
  []
 
-[34 <./images/step32.png>]
-<images/step33.png, id=178, 1848.9075pt x 1054.94125pt>
-File: images/step33.png Graphic file (type png)
-<use images/step33.png>
-Package pdftex.def Info: images/step33.png  used on input line 216.
+[34 <./images/hlsstep32.png>]
+<images/hlsstep33.png, id=178, 1848.9075pt x 1054.94125pt>
+File: images/hlsstep33.png Graphic file (type png)
+<use images/hlsstep33.png>
+Package pdftex.def Info: images/hlsstep33.png  used on input line 216.
 (pdftex.def)             Requested size: 379.5021pt x 216.52191pt.
 
 Overfull \hbox (34.5021pt too wide) in paragraph at lines 216--216
  [][] 
  []
 
-[35 <./images/step33.png>]
-<images/step34.png, id=183, 1848.9075pt x 1054.94125pt>
-File: images/step34.png Graphic file (type png)
-<use images/step34.png>
-Package pdftex.def Info: images/step34.png  used on input line 221.
+[35 <./images/hlsstep33.png>]
+<images/hlsstep34.png, id=183, 1848.9075pt x 1054.94125pt>
+File: images/hlsstep34.png Graphic file (type png)
+<use images/hlsstep34.png>
+Package pdftex.def Info: images/hlsstep34.png  used on input line 221.
 (pdftex.def)             Requested size: 379.5021pt x 216.52191pt.
 
 Overfull \hbox (34.5021pt too wide) in paragraph at lines 221--221
  [][] 
  []
 
-[36 <./images/step34.png>]
-<images/step35.png, id=188, 1848.9075pt x 1054.94125pt>
-File: images/step35.png Graphic file (type png)
-<use images/step35.png>
-Package pdftex.def Info: images/step35.png  used on input line 226.
+[36 <./images/hlsstep34.png>]
+<images/hlsstep35.png, id=188, 1848.9075pt x 1054.94125pt>
+File: images/hlsstep35.png Graphic file (type png)
+<use images/hlsstep35.png>
+Package pdftex.def Info: images/hlsstep35.png  used on input line 226.
 (pdftex.def)             Requested size: 379.5021pt x 216.52191pt.
 
 Overfull \hbox (34.5021pt too wide) in paragraph at lines 226--226
  [][] 
  []
 
-[37 <./images/step35.png>]
-<images/step36.png, id=194, 1848.9075pt x 1054.94125pt>
-File: images/step36.png Graphic file (type png)
-<use images/step36.png>
-Package pdftex.def Info: images/step36.png  used on input line 232.
+[37 <./images/hlsstep35.png>]
+<images/hlsstep36.png, id=194, 1848.9075pt x 1054.94125pt>
+File: images/hlsstep36.png Graphic file (type png)
+<use images/hlsstep36.png>
+Package pdftex.def Info: images/hlsstep36.png  used on input line 232.
 (pdftex.def)             Requested size: 379.5021pt x 216.52191pt.
 
 Overfull \hbox (34.5021pt too wide) in paragraph at lines 232--232
  [][] 
  []
 
-[38 <./images/step36.png>]
-<images/step37.png, id=199, 1848.9075pt x 1054.94125pt>
-File: images/step37.png Graphic file (type png)
-<use images/step37.png>
-Package pdftex.def Info: images/step37.png  used on input line 237.
+[38 <./images/hlsstep36.png>]
+<images/hlsstep37.png, id=199, 1848.9075pt x 1054.94125pt>
+File: images/hlsstep37.png Graphic file (type png)
+<use images/hlsstep37.png>
+Package pdftex.def Info: images/hlsstep37.png  used on input line 237.
 (pdftex.def)             Requested size: 379.5021pt x 216.52191pt.
 
 Overfull \hbox (34.5021pt too wide) in paragraph at lines 237--237
  [][] 
  []
 
-[39 <./images/step37.png>]
-<images/step38.png, id=204, 1848.9075pt x 1054.94125pt>
-File: images/step38.png Graphic file (type png)
-<use images/step38.png>
-Package pdftex.def Info: images/step38.png  used on input line 244.
+[39 <./images/hlsstep37.png>]
+<images/hlsstep38.png, id=204, 1848.9075pt x 1054.94125pt>
+File: images/hlsstep38.png Graphic file (type png)
+<use images/hlsstep38.png>
+Package pdftex.def Info: images/hlsstep38.png  used on input line 244.
 (pdftex.def)             Requested size: 379.5021pt x 216.52191pt.
 
 Overfull \hbox (34.5021pt too wide) in paragraph at lines 244--244
  [][] 
  []
 
-[40 <./images/step38.png>]
-<images/step39.png, id=209, 1848.9075pt x 1054.94125pt>
-File: images/step39.png Graphic file (type png)
-<use images/step39.png>
-Package pdftex.def Info: images/step39.png  used on input line 255.
+[40 <./images/hlsstep38.png>]
+<images/hlsstep39.png, id=209, 1848.9075pt x 1054.94125pt>
+File: images/hlsstep39.png Graphic file (type png)
+<use images/hlsstep39.png>
+Package pdftex.def Info: images/hlsstep39.png  used on input line 255.
 (pdftex.def)             Requested size: 379.5021pt x 216.52191pt.
 
 Overfull \hbox (34.5021pt too wide) in paragraph at lines 255--255
  [][] 
  []
 
-[41 <./images/step39.png>]
-<images/step40.png, id=214, 1848.9075pt x 1054.94125pt>
-File: images/step40.png Graphic file (type png)
-<use images/step40.png>
-Package pdftex.def Info: images/step40.png  used on input line 262.
+[41 <./images/hlsstep39.png>]
+<images/hlsstep40.png, id=214, 1848.9075pt x 1054.94125pt>
+File: images/hlsstep40.png Graphic file (type png)
+<use images/hlsstep40.png>
+Package pdftex.def Info: images/hlsstep40.png  used on input line 262.
 (pdftex.def)             Requested size: 379.5021pt x 216.52191pt.
 
 Overfull \hbox (34.5021pt too wide) in paragraph at lines 262--262
  [][] 
  []
 
-[42 <./images/step40.png>]
-<images/step41.png, id=219, 1848.9075pt x 1054.94125pt>
-File: images/step41.png Graphic file (type png)
-<use images/step41.png>
-Package pdftex.def Info: images/step41.png  used on input line 270.
+[42 <./images/hlsstep40.png>]
+<images/hlsstep41.png, id=219, 1848.9075pt x 1054.94125pt>
+File: images/hlsstep41.png Graphic file (type png)
+<use images/hlsstep41.png>
+Package pdftex.def Info: images/hlsstep41.png  used on input line 270.
 (pdftex.def)             Requested size: 379.5021pt x 216.52191pt.
 
 Overfull \hbox (34.5021pt too wide) in paragraph at lines 270--270
  [][] 
  []
 
-[43 <./images/step41.png>]
-<images/step42.png, id=225, 1848.9075pt x 1054.94125pt>
-File: images/step42.png Graphic file (type png)
-<use images/step42.png>
-Package pdftex.def Info: images/step42.png  used on input line 284.
+[43 <./images/hlsstep41.png>]
+<images/hlsstep42.png, id=225, 1848.9075pt x 1054.94125pt>
+File: images/hlsstep42.png Graphic file (type png)
+<use images/hlsstep42.png>
+Package pdftex.def Info: images/hlsstep42.png  used on input line 284.
 (pdftex.def)             Requested size: 379.5021pt x 216.52191pt.
 
 Overfull \hbox (34.5021pt too wide) in paragraph at lines 284--284
  [][] 
  []
 
-[44 <./images/step42.png>] (./HlsTutorial.aux)
+[44 <./images/hlsstep42.png>] (./HlsTutorial.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
@@ -588,14 +588,14 @@ L3 programming layer <2024-02-20>
  ) 
 Here is how much of TeX's memory you used:
  3008 strings out of 474116
- 56341 string characters out of 5733619
+ 57238 string characters out of 5733619
  1941187 words of memory out of 5000000
  25399 multiletter control sequences out of 15000+600000
  559587 words of font info for 41 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  57i,6n,65p,321b,301s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </opt/homebrew/Cellar/texlive/20240312/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></opt/homebrew/Cellar/texlive/20240312/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></opt/homebrew/Cellar/texlive/20240312/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb>
-Output written on HlsTutorial.pdf (44 pages, 6030339 bytes).
+Output written on HlsTutorial.pdf (44 pages, 6030349 bytes).
 PDF statistics:
  248 PDF objects out of 1000 (max. 8388607)
  110 compressed objects within 2 object streams

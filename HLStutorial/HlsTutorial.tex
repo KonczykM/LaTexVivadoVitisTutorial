@@ -9,241 +9,239 @@
 \date{July 2024}
 
 % Define a new Template for steps
-\newcounter{step}
-\newcommand{\step}[3]{
-    \refstepcounter{step}
-    \subsection{Step \thestep: #1}
+\newcounter{hlsstep}
+\newcommand{\hlsstep}[3]{
+    \refstepcounter{hlsstep}
+    \subsection*{Step \thehlsstep: #1}
     \begin{enumerate}
         #2
     \end{enumerate}
     \begin{figure}[h!]
         \centering
-        \includegraphics[width=1.1\textwidth]{images/step\thestep.png}
+        \includegraphics[width=1.1\textwidth]{images/hlsstep\thehlsstep.png}
         \caption{#3}
-        \label{fig:step\thestep}
+        \label{fig:step\thehlsstep}
     \end{figure}
     \FloatBarrier
     \newpage
 }
 
 \begin{document}
-\tableofcontents
-\newpage
-\section{Vivado empty platform creation}
-\step{Creating new Vivado project}{
+\subsection*{Vivado empty platform creation}
+\hlsstep{Creating new Vivado project}{
     \item Create a new vivado project
     \item Select an appropriate name for the project (in my case project\_5)
     \item Select an appropriate project location (in my case default)
     \item Proceed with project creatio
 }{Project creation in Vivado}
 
-\step{Selecting an RTL project type}{
+\hlsstep{Selecting an RTL project type}{
     \item Select an RTL project type
     \item Make sure that the "do not specify sources at this time" option is selected
     \item proceed with project creation
 }{Choosing project type screen}
 
-\step{Board selection}{
+\hlsstep{Board selection}{
     \item Select a Board tab from component selection menu
     \item In the seacrh tab select and EBAZ4205 Board
     \item Proceed further with project creation
 }{Board selection screen}
 
-\step{Add the Zynq 7 processing system IP}{
+\hlsstep{Add the Zynq 7 processing system IP}{
     \item Create a block Design from the left side of the screen
     \item Once the block design is named and created add the new IP by selecting the plus icon
     \item In the IP selection type Zynq 7 processing system and double click to add IP
 }{Zynq 7 processing System block}
 
-\step{Block automation}{
+\hlsstep{Block automation}{
     \item After the block been added click "run block automation within the green area"
     \item Select an option to apply board presets
     \item After the block automation is completed add a connection between the clock output and clock input within the Zynq7 Processing system  
 }{Configured Zynq7 processing system}
 
-\step{Creating HDL wrapper}{
+\hlsstep{Creating HDL wrapper}{
     \item On the left tab select the main block design
     \item Select option create HDL wrapper
     \item Make sure to select "Let vivado manage and auto-update option is selected"
 }{Block design menu}
 
-\step{Bitstream generation}{
+\hlsstep{Bitstream generation}{
     \item Generate Bitstream by selecting an option on the top tab
     \item Proceed with the generation by leaving the options default 
     \item Wait until the process is finshed completely and implemented design is seen
 }{Bitstream Generation Icon}
 
-\step{Exporting Hardware}{
+\hlsstep{Exporting Hardware}{
     \item From drop down menu select the Export -> Export Hardware
     
 }{Export menu}
 
-\step{Include Bitstream}{
+\hlsstep{Include Bitstream}{
     \item Proceed with harware export by choosing appropriate name and selecting "include bit stream" option
 }{Export options for generated bitstream}
 
-\step{Launch Vitis IDE}{
+\hlsstep{Launch Vitis IDE}{
     \item From Tools menu select the Launch Vitis Ide option
     \item Wait until the Vitis IDE program is open and fully loaded
 }{Tool toolbar}
 
-\section{Vitis HLS component creation}
-\step{Select workspace}{
-    \item Once the Vitis IDE is loaded fully select the folder for the project workspace Created in Step 1
+\subsection*{Vitis HLS component creation}
+\hlsstep{Select workspace}{
+    \item Once the Vitis IDE is loaded fully select the folder for the project workspace Created in hlsstep 1
 }{Vitis IDE Welcome screen}
 
-\step{Create HLS component}{
+\hlsstep{Create HLS component}{
     \item On the left tab select an option to create an HLS component within the design
     \item Proceed with Naming the HLS project
     \item Make sure to leave Configuration files and Sources files in its default state (blank)
 }{Workspace view}
 
-\step{Select the platform}{
+\hlsstep{Select the platform}{
     \item In the Hardware option of HLS component creation select harware design
-    \item Browse the location of the exported hardware platform in previous steps the platform will have an extention .xsa
+    \item Browse the location of the exported hardware platform in previous hlssteps the platform will have an extention .xsa
 }{Hardware selection}
 
-\step{Hardware Setting}{
+\hlsstep{Hardware Setting}{
     \item Within hardware settings specify the clock speed and clock uncertanty for future project simulation
     \item (This settings can be changed later)
 }{Hardware Setting menu}
 
-\step{Creating source file}{
+\hlsstep{Creating source file}{
     \item After the HLS project has been generated find the Sources folder
     \item The folder should be empty
     \item Right click on the folder and select "New Source File" option
     \item Rename the file appropriatly and make sure to include .cpp extension after name
 }{HLS component Folder Structure}
 
-\step{Creating C ++ Function}{
+\hlsstep{Creating C ++ Function}{
     \item Create a simple function following the conventions of C ++ Language
     \item In case of the tutorial this function multiplies to numbers
 }{C++ Source file }
 
-\step{Creating Test Bench file}{
+\hlsstep{Creating Test Bench file}{
     \item Right click on test bench folder and select New Test Bench File option
     \item Name the file and make sure that the .cpp extension is at the end of file name
 }{Test Bench Folder}
 
-\step{Creating Test bench Function}{
+\hlsstep{Creating Test bench Function}{
     \item Create a function that can be used to test accuracy of the HLS functions
     \item The numbers can be generated within the program or precalculated
     \item In the case of the tutorial the test bench file automatically generates performs and evalute tests 
 }{Test bench code}
 
-\step{Compile the c++ code}{
+\hlsstep{Compile the c++ code}{
     \item In the bottom menu select the run option within the C simulation tab
     \item Wait until the code compilation and simulation is completed (visualised with green checkmark)
 }{Vitis HLS workflow menu}
 
-\step{Main function selection}{
+\hlsstep{Main function selection}{
     \item Find the Settings folder withing the HLS component
     \item Open the folder and find a file with .cfg extension
     \item By double clicking on the file, the settings menu for HLS component should open
 }{HLS Component settings menu}
 
-\step{Selecting Main function}{
+\hlsstep{Selecting Main function}{
     \item Within the setting menu find "top" option by scrolling down
     \item Select browse, and once the selection is loaded click on the name of the function
     \item Save setting by pressing Ctr+s
 }{Top function menu option}
 
-\step{Follow Work flow}{
+\hlsstep{Follow Work flow}{
     \item Within the Vitis HLS workflow select run option for C simulation
     \item After C simulation is completed select run for C sythesis
     \item After C sythesis is done select run option for C/RTL cosimulation
     \item If the function is working correctly this action should return "Pass" within the terminal
 }{HLS Workflow}
 
-\step{Adjusting HLS Function Parameters (Pragmas)}{
+\hlsstep{Adjusting HLS Function Parameters (Pragmas)}{
     \item Go back to the source file created before
     \item On the write hand side click option for HLS Directives
 }{HLS Directive icon}
 
-\step{Adding new directive}{
+\hlsstep{Adding new directive}{
     \item Select the function and press plus icon to add directives to the component of the function
 }{Directives tab}
 
-\step{Adding Interface Directive}{
+\hlsstep{Adding Interface Directive}{
     \item Withing the drop down menu Select interface option
     \item For the mode option select s\_axilite interface
     \item Leave the rest of the options in its default state and acctept changes
     \item Repete the process for variable a and b
 }{Interface pragmas menager}
 
-\step{Saving generated pragmas}{
+\hlsstep{Saving generated pragmas}{
     \item The new pragmas for existing variables should be now generated and a part of the code
     \item Save the edited file by clicking Ctr+s
 }{Pragmas within code}
 
-\step{Running workflow with updated Parameters}{
+\hlsstep{Running workflow with updated Parameters}{
     \item After the new HLS directives are implemented and saved start with the HLS workflow from the beginning 
     \item Run the C simulation, C synthesis, C/RTL cosimulation, Package, and implementation
     \item After all steps are completed the new HLS block Ip is ready for implementation
 }{HLS workflow}
 
-\section{Integrating HLS component into the Hardware Design}
-\step{Adjusting Vivado Settings}{
+\subsection*{Integrating HLS component into the Hardware Design}
+\hlsstep{Adjusting Vivado Settings}{
     \item Go back to Vivado program
     \item Withing the Vivado Select Tools -> Settings tab
 }{Vivado Project from the beggining of tutorial}
 
-\step{Adding new IP repository}{
+\hlsstep{Adding new IP repository}{
     \item Within the setting window select IP -> Repository option
     \item Click on the plus button to add a new repository
 }{Settings Menu for IP properties}
 
-\step{Selecting the repository}{
+\hlsstep{Selecting the repository}{
     \item In the pop up window browse through the Workspace directory and select the folder corresponding to the name of the hls components
     \item If the correct directory was selected the program should automatically detect 1 existing Ip
 }{IP repository with HLS component selected}
 
-\step{Adding the HLS IP to block design}{
+\hlsstep{Adding the HLS IP to block design}{
     \item Within the block design click add IP button as before
     \item Search for the name of HLS function component created in Vitis
     \item This name in tutorial's case is Multiplication
 }{New "Multiplication" IP from HLS}
 
-\step{Connection Autmation}{
+\hlsstep{Connection Autmation}{
     \item After the block has been added it will be easy to differentiate by red logo on the Ip
     \item Select the Run connection automation from the green help tab
     \item Make sure all connections are Ticked for the connection to be performed
     \item Proceed with connection automation
 }{Connection Automation}
 
-\step{Regenerate Layout}{
+\hlsstep{Regenerate Layout}{
     \item Regenerate Layout and ensure all connections are made to the HLS IP
 }{Messy Layout from Autoconnection}
 
-\step{Generate bitstream}{
+\hlsstep{Generate bitstream}{
     \item Commare the diagram against the image
     \item Generate new bitstream
 }{Clean layout ready for bitstream generation}
 
-\step{Export Hardware}{
+\hlsstep{Export Hardware}{
     \item As before Export hardware with the include bitstream option
     \item Make sure that the name of the new platform is different that the previous platform
 }{Hardware Export option within Vivado}
 
-\section{Writing the program utilizing the HLS component}
+\subsection*{Writing the program utilizing the HLS component}
 
-\step{Creating Vitis platform}{
+\hlsstep{Creating Vitis platform}{
     \item In Vitis IDE select option to create new platform component
 }{Vitis new platform creation option}
 
-\step{Chossing the New exported hardware platform}{
+\hlsstep{Chossing the New exported hardware platform}{
 \item In the Platform creation flow when prompted to select hardware design select browse
 \item Select the location and name of newly generated platform that includes the HLS component "Multiplication"
 }{Platform File selection menu}
 
-\step{Bulid the platform component}{
+\hlsstep{Bulid the platform component}{
     \item After the platform creation is complete go to the "Flow" tab within Vitis
     \item From the Flow tab select the Platform as component and click Bulid
     \item Wait for the build to finish and new files to appear
 
 }{Bulit platform componets with folder tabs expanded}
 
-\step{Finding driver files}{
+\hlsstep{Finding driver files}{
     \item Once the Platform building process is copleated go to the projects tab
     \item Within projects tab expand the platform components
     \item Following that expand the "Output" Folder
@@ -253,14 +251,14 @@
     \item Within the include folder we can find all drivers that are available for current platform
 
 }{Drivers available within the platform's include folder}
-\step{Finting Multiplication Driver}{
+\hlsstep{Finting Multiplication Driver}{
     \item Within the include folder identify the driver for HLS component
     \item In the case of the tutorial it is called xmultiplication.h
     \item Do not mistake it with xmultiplication\_hw.h as it is deeper within abstraction layer and we do not need to use it directly
     \item Double click on the xmultiplication.h and read through the available C functions
 
 }{Conten of the xmultiplication header file including all available functions}
-\step{Creating extended Hello World program}{
+\hlsstep{Creating extended Hello World program}{
     \item Start by going to the left tab and selecting exaples same as first tutorial
     \item Find the Hello World Exaple and start creation process
     \item When prompted to select the platform select the only available platform that we just created
@@ -268,7 +266,7 @@
     \item Open the helloworld.c application and within the includes add the driver for Multiplication HLS component
 
 }{Newly enerated Hello World example code with the HLS component driver included}
-\step{Writing example code}{
+\hlsstep{Writing example code}{
     \item Once the driver has been added write the code that utilises the functions of the driver
     \item The code on the screen does following
     \item Creates varialble for HLS Multiplication platform that will contain its location within hardware and state
