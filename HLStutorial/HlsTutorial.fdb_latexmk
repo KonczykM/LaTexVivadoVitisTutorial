@@ -1,12 +1,10 @@
 # Fdb version 4
-["pdflatex"] 1723085953.6176 "/Users/martin/git/LaTexVivadoVitisTutorial/HLStutorial/HlsTutorial.tex" "HlsTutorial.pdf" "HlsTutorial" 1723085959.61944 0
-  "/Users/martin/git/LaTexVivadoVitisTutorial/HLStutorial/HlsTutorial.tex" 1723085941.3275 12941 03e09e4a416b8ea1a0dcb50ce8cdc6a9 ""
+["pdflatex"] 1723092741.24858 "/Users/martin/git/LaTexVivadoVitisTutorial/HLStutorial/HlsTutorial.tex" "HlsTutorial.pdf" "HlsTutorial" 1723092747.35679 0
+  "/Users/martin/git/LaTexVivadoVitisTutorial/HLStutorial/HlsTutorial.tex" 1723092734.83381 12932 25143dc2b96649acf1a15e6606a99d5f ""
   "/opt/homebrew/Cellar/texlive/20240312/share/texmf-dist/fonts/map/fontname/texfonts.map" 1710106625 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/opt/homebrew/Cellar/texlive/20240312/share/texmf-dist/fonts/map/pdftex/updmap/pdftex.map" 1710106625 5472554 f7861620179a71a79d4bd86251f559d0 ""
-  "/opt/homebrew/Cellar/texlive/20240312/share/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1710106625 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "/opt/homebrew/Cellar/texlive/20240312/share/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1710106625 1324 c910af8c371558dc20f2d7822f66fe64 ""
   "/opt/homebrew/Cellar/texlive/20240312/share/texmf-dist/fonts/tfm/public/cm/cmr12.tfm" 1710106625 1288 655e228510b4c2a1abe905c368440826 ""
-  "/opt/homebrew/Cellar/texlive/20240312/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb" 1710106625 34811 78b52f49e893bcba91bd7581cdc144c0 ""
   "/opt/homebrew/Cellar/texlive/20240312/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb" 1710106625 32080 340ef9bf63678554ee606688e7b5339d ""
   "/opt/homebrew/Cellar/texlive/20240312/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1710106625 35752 024fb6c41858982481f6968b5fc26508 ""
   "/opt/homebrew/Cellar/texlive/20240312/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii" 1710106625 71627 94eb9990bed73c364d7f53f960cc8c5b ""
@@ -26,9 +24,8 @@
   "/opt/homebrew/Cellar/texlive/20240312/share/texmf-dist/tex/latex/placeins/placeins.sty" 1710106625 4087 636308456f60d2b31cbf97867db5708d ""
   "/opt/homebrew/Cellar/texlive/20240312/share/texmf-dist/web2c/texmf.cnf" 1710106625 41652 e14926ab86fde7902cad99d9eeaa5ca5 ""
   "/opt/homebrew/Cellar/texlive/20240312/share/texmf-var/web2c/pdftex/pdflatex.fmt" 1710106625 8221866 9aed0a1b2ac5e8bec4cefaf91f11118a ""
-  "HlsTutorial.aux" 1723085959.56887 13088 0d24f1941a3314a73e93c0fe143509dd "pdflatex"
-  "HlsTutorial.tex" 1723085941.3275 12941 03e09e4a416b8ea1a0dcb50ce8cdc6a9 ""
-  "HlsTutorial.toc" 1723085959.57044 3932 705f15827b2576471e2c9cf87b93d788 "pdflatex"
+  "HlsTutorial.aux" 1723092747.30909 7266 9a45d861d34be8d6019692e34c61d010 "pdflatex"
+  "HlsTutorial.tex" 1723092734.83381 12932 25143dc2b96649acf1a15e6606a99d5f ""
   "images/hlsstep1.png" 1721269689 93671 8f88cf7c2ba1ffef9f7da43760d84000 ""
   "images/hlsstep10.png" 1721270201 195306 bd3fac9c7cc4f36d1a174f2c749adc8c ""
   "images/hlsstep11.png" 1721270226 144005 91a8a43109d0abf17cd3fc14f1d739f6 ""
@@ -75,5 +72,4 @@
   "HlsTutorial.aux"
   "HlsTutorial.log"
   "HlsTutorial.pdf"
-  "HlsTutorial.toc"
   (rewritten before read)
